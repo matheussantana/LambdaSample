@@ -10,6 +10,8 @@ s3 = boto3.client('s3')
 
 #teste
 print('teste3')
+print('teste4')
+
 def lambda_handler(event, context):
     #print("Received event: " + json.dumps(event, indent=2))
 
